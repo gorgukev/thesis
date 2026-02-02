@@ -72,7 +72,7 @@ API_KEY = "your_api_key_here"
 jupyter notebook Collect_data.ipynb
 
 # Run all cells sequentially
-# Note: Part 2 (data collection) requires API access and takes time
+# Note: Part 2 (data collection) requires API access and takes time, the API key in the project is expired.
 ```
 
 ## 📖 Notebook Structure
@@ -194,27 +194,17 @@ According to Rathke (2017), most prediction models achieve ~60% accuracy. Our mo
 4. **Deep learning**: LSTM/GRU for temporal patterns
 5. **Ensemble methods**: Combine multiple models
 
-## 🤝 Contributing
-
-This is a completed bachelor's thesis project, but suggestions for improvements are welcome:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is submitted as a bachelor's thesis at Arcada University of Applied Sciences. 
-For academic use, please cite appropriately.
+For academic use, please cite appropriately according to the MIT license.
 
 ## 👤 Author
 
-**[Your Name]**
-- Bachelor's Thesis in [Degree Programme]
+**[Kevin Görgü]**
+- Bachelor's Thesis in [Information technology]
 - Arcada University of Applied Sciences
-- Year: 2025
+- Year: 2026
 
 ## 🙏 Acknowledgments
 
@@ -225,26 +215,9 @@ For academic use, please cite appropriately.
 ## 📖 References
 
 Key references used in this project:
+For complete references, see the thesis in theseum: **Link incoming**.
 
-1. **Rathke, A. L. (2017)**. An examination of expected goals and shot efficiency in soccer. *Journal of Sports Analytics*.
-
-2. **Bishop, C. M. (2006)**. Pattern recognition and machine learning. Springer.
-
-3. **Nguyen, H. T. (2021)**. Poisson modeling and predicting English Premier League goal scoring. *ResearchGate*.
-
-4. **Gifford, M., & Bayrak, T. (2023)**. A predictive analytics model for forecasting outcomes in the National Football League games using decision tree and logistic regression. *Decision Analytics Journal*.
-
-For complete references, see the thesis document.
-
-## 📧 Contact
-
-For questions about this project, please contact:
-- Email: [your.email@arcada.fi]
-- LinkedIn: [Your LinkedIn]
-- GitHub: [Your GitHub]
 
 ---
 
 **Note**: This project demonstrates that simple statistical approaches have **limited predictive power** for football match outcomes. While the results are not suitable for a production system, the methodology provides a solid foundation for more advanced research incorporating richer features and more sophisticated modeling techniques.
-
-**⚽ "Football is a simple game. Twenty-two men chase a ball for 90 minutes and at the end, the model gets it wrong." - Adapted from Gary Lineker** 😄
