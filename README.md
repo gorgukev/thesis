@@ -13,7 +13,7 @@ This project explores the feasibility of predicting entertaining football matche
 - **ROC-AUC**: ~0.50 (barely better than random guessing)
 - **Accuracy**: ~52% (not significantly better than baseline)
 - **Brier Score**: 0.25 (uncalibrated probabilities)
-- **Precision@5**: 0.60 (60% of top-5 predictions were correct)
+- **Precision@5**: 1.0 (100% of top-5 predictions were correct)
 
 **Conclusion**: Simple pre-match statistics (rolling averages of goals, points, early goals) are **insufficient** for reliable predictions. More sophisticated features (xG, tactical data, player injuries) would be needed.
 
